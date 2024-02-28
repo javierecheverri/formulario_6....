@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <ul>
+    <li>
+      <a href="formulario.html">index</a>
+    </li>
+  </ul>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>formulario</title>
+</head>
+<body>
+  
+ <form >
+
+    
+     
+
+      <label for="type">numero de incidencia:Q1167</label>
+      <label for="type"><fecha>fecha hora de resepcion 2019/05/17        12:16:20</label>
+      
+
+    <form action="get"autocomplete="on">
+      <br>
+
+
+      <label for="nombre">nombre del cliente:</label>
+      <input type="text" id="nombre"
+       
+    <label for="identificacion">identificacion:</label>
+    <input id="identificacion" type="number" placeholder="number" pattern="[A-Z a-z]+" required >
+     <div>
+
+      <label for="solicitante">tipo de solicitante:</label>
+    <select name="" id="solicitante"required>
+       <option value="1">03 DOCENTE</option>
+       <option value="2">04 ALUMNO</option>
+       <option value="3">05 RECTORA</option>
+       
+
+
+       <label for="tipo de solicitante">tipo de solicitante</label>
+      <input type="tipo de solicitante">
+    <div>
+    <label for="email">email:</label>
+    <input id="email" type="email" name="email"required>
+    </div>
+
+    <h5>informacion de contacto</h5>
+
+    <form action="get"autocomplete="on">
+      <br>
+      <label for="pais">pais</label>
+      <input type="text" id="nombre" placeholder="colombia"required minlength="10" max="12" pattern="[A-Z a-z]+">
+      
+    <label for="departamento">departamento:</label>
+    <input id="departamento" type="text" placeholder="santander" pattern="[A-Z a-z]+" required min="10" max="12">
+     <div>
+    <label for="ciudad">ciudad:</label>
+    <input id="ciudad" type="text" placeholder="bucaramanga"pattern="[A-Z a-z]+"required>
+    </div>
+    <label for="pass">contraseña:</label>
+    <input id="password" type="password" name="pass" required>
+    <div>
+     
+      <label for="telefono">telefono:</label>
+    <input id="telefono" type="number" placeholder="number" pattern="[A-Z a-z]+" required >
+      <label for="celular">celular:</label>
+    <input id="celular" type="number" placeholder="number" pattern="[A-Z a-z]+" required >
+    </div>
+   
+<label for="medio de contacto preferido">medio de contacto preferido:</label>
+    <select name="" id="medio de contacto preferido"required>
+       <option value="1">01 email</option>
+       <option value="2">02 telefono</option>
+       <option value="3">03 celular</option>
+<div>
+       <label for="direccio">direccion:</label>
+       <input id="direccion" type="text" placeholder="direccion" pattern="[A-Z a-z]+" required min="10" max="12">
+       </div>
+       <div>
+        
+    <h5>informacion de solicitud</h5>
+
+    <div><label for="type"><fecha>fecha de vencimiento: mayo 24-2019</label>
+      </div>
+       <div>
+      <label for="asunto">asunto</label>
+      <input type="text" id="nombre" placeholder="colombia"required minlength="10" max="12" pattern="[A-Z a-z]+">
+      </div>
+       <div>
+      <label for="descripcion">descripcion</label>
+      <textarea name="asunto" id="asunto" cols="30" rows="10"></textarea>
+      </div>
+      <div>
+         <form action="/ruta_del_script_de_procesamiento" method="POST" enctype="multipart/form-data">
+        <input type="file" name="archivo"accept=.png, .jpg.>
+        <button type="submit">Subir Archivo</button>
+    </form>
+      </div>
+
+
+
+</body>
+</html>
