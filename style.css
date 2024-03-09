@@ -1,0 +1,43 @@
+body {
+  background-color:
+}
+
+header nav ul li a {
+  color: blue;
+}
+
+header nav ul li:first-child a {
+  color: red;
+}
+
+header nav ul li:last-child a {
+  color: blue;
+  font-size; 
+
+}
+header nav ul li :nth-child(2 ) a {
+  color: red;
+  font-size; 
+}
+
+ input [type=pasword] {
+ background-color: aqua;
+ }
+  
+ input[type=text]{
+  background-color: bisque;
+ }
+ nput[type=number]{
+  background-color: brown;
+ }
+
+ a[href="#somos"]{
+  color: aqua;
+
+ }
+
+ a[href=".edu.co"]{
+  color: bisque;
+ }
+
+ article
